@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2574103923315187969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2574103923315187970}
+  - component: {fileID: 2574103923315187973}
+  - component: {fileID: 2574103923315187972}
+  - component: {fileID: 2574103923315187971}
+  - component: {fileID: 2604540794811023880}
+  m_Layer: 0
+  m_Name: Transaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2574103923315187970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574103923315187969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.33, y: 0.33, z: 0.33}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2574103923315187973
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574103923315187969}
+  m_Mesh: {fileID: 8956276461189781062, guid: f8397206dc34d5140ad3071f4bbbd46f, type: 3}
+--- !u!23 &2574103923315187972
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574103923315187969}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a36f3b5795dc8f045b9ff1cc0550542b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &2574103923315187971
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574103923315187969}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2604540794811023880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574103923315187969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f97ad7e15011844a93a98f59af71fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bitswiftIcon: {fileID: 4254077018422837953, guid: ebc7038d7c350bc459ea5a3476df474a,
+    type: 3}
+  ignisIcon: {fileID: 8991033161350790836, guid: 337beaed663dbc344a667a17ad64162e,
+    type: 3}
+  ardorICon: {fileID: 943473004445547114, guid: 4a034760dcfaf8d45866073993eb8d5a,
+    type: 3}
+  here: {fileID: 2574103923315187970}
+  _data:
+    sender: 
+    senderRS: 
+    feeNQT: 
+    amountNQT: 
+    transactionIndex: 0
+    timestamp: 0
+    referencedTransactionFullHash: 
+    confirmations: 0
+    subtype: 0
+    block: 
+    blockTimestamp: 0
+    height: 0
+    senderPublicKey: 
+    type: 0
+    chain: 0
+    fxtTransaction: 0
+    deadline: 0
+    signature: 
+    recipient: 
+    recipientRS: 
+    fullHash: 
+    signatureHash: 
+    approved: 0
+    result: 
+    executionHeight: 0
+    transaction: 
+    version: 0
+    phased: 0
+    ecBlockId: 0
+    ecBlockHeight: 0
+    lastBlock: 
+    requestProcessingTime: 0

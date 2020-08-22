@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8263426101320925820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8263426101320925818}
+  - component: {fileID: 8263426101320925819}
+  - component: {fileID: -7543079647566452445}
+  m_Layer: 0
+  m_Name: transaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8263426101320925818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263426101320925820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8263426101320925819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263426101320925820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38edb58b2bd56cb4f9981f4ccad863b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ardor: {fileID: 2277535963579036690, guid: 4a034760dcfaf8d45866073993eb8d5a, type: 3}
+  ignis: {fileID: 4354468041972439971, guid: 337beaed663dbc344a667a17ad64162e, type: 3}
+  bitswift: {fileID: 3338638204828833880, guid: ebc7038d7c350bc459ea5a3476df474a, type: 3}
+  displayHolder: {fileID: 0}
+  transaction:
+    sender: 
+    senderRS: 
+    feeNQT: 
+    amountNQT: 
+    transactionIndex: 0
+    timestamp: 0
+    referencedTransactionFullHash: 
+    confirmations: 0
+    subtype: 0
+    block: 
+    blockTimestamp: 0
+    height: 0
+    senderPublicKey: 
+    type: 0
+    chain: 0
+    fxtTransaction: 0
+    deadline: 0
+    signature: 
+    recipient: 
+    recipientRS: 
+    fullHash: 
+    signatureHash: 
+    approved: 0
+    result: 
+    executionHeight: 0
+    transaction: 
+    version: 0
+    phased: 0
+    ecBlockId: 0
+    ecBlockHeight: 0
+    attachment:
+      ChildChainBlock: 
+      chain: 0
+      childTransactionFullHashes: []
+      orderHash: 
+      FxtCoinExchangeOrderCancel: 
+      hash: 
+    lastBlock: 
+    requestProcessingTime: 0
+  display: {fileID: 0}
+--- !u!65 &-7543079647566452445
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263426101320925820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
